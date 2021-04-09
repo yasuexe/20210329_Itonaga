@@ -39,7 +39,6 @@ a {
 /* MAIN */
 .main {
   /*background: #fff;*/
-  height: 600px;
   color: #fff;
 }
 
@@ -104,7 +103,8 @@ span {
 .news-parent {
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .news-dl {
@@ -459,7 +459,7 @@ span {
 .contact-area {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .contact-recruit {
@@ -475,6 +475,12 @@ span {
   left: 40%;
 }
 
+.contact-recruit img {
+  width: 115%;
+  height: 300px;
+  object-fit: cover;
+}
+
 .contact-interview {
   position: relative;
 }
@@ -486,6 +492,12 @@ span {
   font-weight: bold;
   top: 50%;
   left: 40%;
+}
+
+.contact-interview img {
+  width: 115%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .contact-contact {
