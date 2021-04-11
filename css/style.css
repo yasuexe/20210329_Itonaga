@@ -460,10 +460,12 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 .contact-recruit {
   position: relative;
+  width: 50%;
 }
 
 .contact-recruit p {
@@ -483,6 +485,7 @@ span {
 
 .contact-interview {
   position: relative;
+  width: 50%;
 }
 
 .contact-interview p {
